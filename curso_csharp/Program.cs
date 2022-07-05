@@ -1,2 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine(value: "Hello, Carol! Good night!!");
+﻿using curso_csharp.ClassesEMetodos;
+
+namespace curso_csharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Testeee");
+            var central = new CentralDeExercicios(new Dictionary<string, Action>(){
+                //Classes e métodos
+                {"Membros - classes e métodos", Membros.Executar}
+            });
+
+            central.SelecionarEExecutar();
+        }
+    }
+}
