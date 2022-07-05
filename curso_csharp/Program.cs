@@ -6,7 +6,6 @@ namespace curso_csharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Testeee");
             var central = new CentralDeExercicios(new Dictionary<string, Action>(){
                 //Classes e métodos
                 {"Membros - classes e métodos", Membros.Executar}
