@@ -8,7 +8,8 @@ namespace curso_csharp
         {
             var central = new CentralDeExercicios(new Dictionary<string, Action>(){
                 //Classes e métodos
-                {"Membros - classes e métodos", Membros.Executar}
+                {"Construtores - classes e métodos", Construtores.Executar},
+                {"Métodos com retorno - classes e métodos", MetodosComRetorno.Executar}
             });
 
             central.SelecionarEExecutar();

@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "curso_csharp", "curso_csharp\curso_csharp.csproj", "{069B9C10-5CCA-4E8A-8F6E-808E680A2876}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "curso_csharp", "curso_csharp\curso_csharp.csproj", "{069B9C10-5CCA-4E8A-8F6E-808E680A2876}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{48C31326-B6FC-43C3-B374-9B2D8EF746D5}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
