@@ -9,6 +9,6 @@
 
 #Diferença entre readonly e const
 	readonly - constante de tempo de execução - se o valor da constante poderá por qualquer motivo ser alterado no futuro, então use readonly - é mais flexivel, pode ser usado em qualquer tipo de dados
-	const - constante de tempo de compilação - se o valor da constante NUNCA for alterado, então use const - é mais limitada, só pode ser usada em numeros, strings e nulos
+	const - constante de tempo de compilação - se o valor da constante NUNCA for alterado, então use const - é mais limitada, só pode ser usada em numeros, strings e nulosgit
 	https://www.macoratti.net/17/10/c_const1.htm#:~:text=Se%20o%20valor%20da%20constante,for%20alterada%20ent%C3%A3o%20use%20const
 	 
