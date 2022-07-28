@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CarolineSouza\\source\\repos\\curso_csharp\\curso_csharp\\curso_csharp\\curso_csharp.csproj": {}
+    "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\curso_csharp\\curso_csharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CarolineSouza\\source\\repos\\curso_csharp\\curso_csharp\\curso_csharp\\curso_csharp.csproj": {
+    "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\curso_csharp\\curso_csharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CarolineSouza\\source\\repos\\curso_csharp\\curso_csharp\\curso_csharp\\curso_csharp.csproj",
+        "projectUniqueName": "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\curso_csharp\\curso_csharp.csproj",
         "projectName": "curso_csharp",
-        "projectPath": "C:\\Users\\CarolineSouza\\source\\repos\\curso_csharp\\curso_csharp\\curso_csharp\\curso_csharp.csproj",
+        "projectPath": "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\curso_csharp\\curso_csharp.csproj",
         "packagesPath": "C:\\Users\\CarolineSouza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CarolineSouza\\source\\repos\\curso_csharp\\curso_csharp\\curso_csharp\\obj\\",
+        "outputPath": "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\curso_csharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CarolineSouza\\AppData\\Roaming\\NuGet\\NuGet.Config",

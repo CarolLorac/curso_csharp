@@ -14,6 +14,9 @@ namespace curso_csharp
                 {"Desafio atributo - classes e métodos", DesafioAtributo.Executar},
                 {"Parametros variáveis (params) - classes e métodos", Params.Executar},
                 {"Parametros nomeados - classes e métodos", ParametrosNomeados.Executar},
+                {"Getters e setters - classes e métodos", GetSet.Executar},
+                {"Propriedade - classes e métodos", Propriedade.Executar},
+                {"Atributo readonly - classes e métodos", Readonly.Executar},
             });
 
             central.SelecionarEExecutar();
