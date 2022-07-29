@@ -11,4 +11,21 @@
 	readonly - constante de tempo de execução - se o valor da constante poderá por qualquer motivo ser alterado no futuro, então use readonly - é mais flexivel, pode ser usado em qualquer tipo de dados
 	const - constante de tempo de compilação - se o valor da constante NUNCA for alterado, então use const - é mais limitada, só pode ser usada em numeros, strings e nulosgit
 	https://www.macoratti.net/17/10/c_const1.htm#:~:text=Se%20o%20valor%20da%20constante,for%20alterada%20ent%C3%A3o%20use%20const
-	 
+
+#Diferença entre array e list
+	A principal diferença entre essas duas coleções é que o array possui um tamanho fixo e a list é dinâmica (cresce de acordo com a quantidade de itens que são adicionados)
+
+#Manipulação de dados
+	item.GetType() - pega o tipo de dado do item (ex: int, double, etc)
+
+#Manipulação de listas
+	lista.Add() - adiciona um elemento na lista
+	lista.AddRange() - adiciona os elementos de uma lista dentro da lista
+	lista.RemoveAt(index) - remove o elemento que está no indice especificado
+	lista.IndexOf(item) - verifica o indice do item/elemento especificado
+
+#Manipulação de fila
+	fila.Enqueue() - adiciona um item na fila
+	fila.Peek() - exibe o primeiro elemento da fila
+	fila.Count - exibe a quantidade de elementos na lista
+	fila.Dequeue() - remove o primeiro elemento da fila
