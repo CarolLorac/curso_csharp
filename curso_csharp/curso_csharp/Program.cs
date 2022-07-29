@@ -17,6 +17,12 @@ namespace curso_csharp
                 {"Getters e setters - classes e métodos", GetSet.Executar},
                 {"Propriedade - classes e métodos", Propriedade.Executar},
                 {"Atributo readonly - classes e métodos", Readonly.Executar},
+                {"Enumerador (enum) - classes e métodos", Enumerador.Executar},
+                {"Struct - classes e métodos", Struct.Executar},
+                {"Struct vs Classe - classes e métodos", StructVsClasse.Executar},
+                {"Parâmetro com valor padrão - classes e métodos", ParametroPadrao.Executar},
+                {"Parâmetros por referência - classes e métodos", ParametrosPorReferencia.Executar},
+                
             });
 
             central.SelecionarEExecutar();
