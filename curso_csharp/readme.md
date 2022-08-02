@@ -38,3 +38,38 @@
     pilha.Push() - adiciona um item na pilha
 	pilha.Pop() - remove elemento do topo da pilha (último a ser adicionado)
 	pilha.Peek() - exibe o elemento do topo da pilha
+
+## Formas de navegar em Dictionary
+	foreach (var ano in filmes.Keys) - navega somente nas Keys
+    {
+        Console.WriteLine(ano.ToString());
+    }    
+
+	foreach (var filme in filmes.Values) - navega somente nos Values
+    {
+        Console.WriteLine(filme);
+    }
+
+    foreach (var filme in filmes) - navega no dictionary inteiro
+    { 
+        Console.WriteLine($"O filme {filme.Value} foi lançado em {filme.Key}"); 
+    }	
+
+# Pilares da Orientação a Objetos (OO)
+	A orientação a objetos é o principal paradigma - forma de organizar as ideias para modelar o mundo real dentro de um sistema - do c#
+
+	1. Abstração - é entender o contexto do seu projeto/problema e criar classes somente com atributos e métodos relevantes, por exemplo, a classe cliente terá 
+    atributos diferentes para um hospital e uma padaria, já que ela está em contextos diferentes e possui necessidades diferentes
+	2. Herança - consiste em reutilizar código. Muitas vezes a mesma funcionalidade é repetida diversas vezes no código, usar a herança permite agilizar o desenvolvimento, facilitar manutenção, deixar o projeto mais limpo e evitar reescrever o código.
+	
+	herança ("É UM(A)"):					composição ("TEM UM(A)"):
+
+	class Animal {}							class Pneu {}
+	class Cachorro : Animal {}			    class Carro 
+											{
+	ex: O cachorro é um animal					public Pneu pneu;
+											}
+											
+											ex: O carro tem um pneu
+
+	3. Encapsulamento - é quando você esconde parte do código (deixando private), com o objetivo de diminuir a dependencia entre as classes. Só deixa visível e acessável (public) o que realmente for necessário
