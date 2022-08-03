@@ -1,3 +1,12 @@
+# PROPRIEDADES CSHARP
+  **override** - sobrescreve um método que foi definido na classe pai (superclasse)
+  para o override funcionar, tem que adicionar virtual no método da classe pai
+  ex super classe:
+  public virtual int Somar() {} 
+  
+  classe subclasse:
+  public override int Somar() {} 
+
 # CLASSES E MÉTODOS
 
 ## Construtores
@@ -8,12 +17,15 @@
 	Quando um atributo/método não tem nada escrito indiciando se private ou public, será sempre private
 
 ## Diferença entre readonly e const
-	readonly - constante de tempo de execução - se o valor da constante poderá por qualquer motivo ser alterado no futuro, então use readonly - é mais flexivel, pode ser usado em qualquer tipo de dados
-	const - constante de tempo de compilação - se o valor da constante NUNCA for alterado, então use const - é mais limitada, só pode ser usada em numeros, strings e nulosgit
+	readonly - constante de tempo de execução - se o valor da constante poderá por qualquer motivo ser alterado no futuro, então 
+	use readonly - é mais flexivel, pode ser usado em qualquer tipo de dados
+	const - constante de tempo de compilação - se o valor da constante NUNCA for alterado, então use const - é mais limitada, 
+	só pode ser usada em numeros, strings e nulosgit
 	https://www.macoratti.net/17/10/c_const1.htm#:~:text=Se%20o%20valor%20da%20constante,for%20alterada%20ent%C3%A3o%20use%20const
 
 ## Diferença entre array e list
-	A principal diferença entre essas duas coleções é que o array possui um tamanho fixo e a list é dinâmica (cresce de acordo com a quantidade de itens que são adicionados)
+	A principal diferença entre essas duas coleções é que o array possui um tamanho fixo e a list é dinâmica (cresce de acordo 
+	com a quantidade de itens que são adicionados)
 
 ## Diferença de queue (fila) e stack (pilha)
    Queue - o primeiro a entrar é o primeiro a sair
@@ -55,12 +67,18 @@
         Console.WriteLine($"O filme {filme.Value} foi lançado em {filme.Key}"); 
     }	
 
-# Pilares da Orientação a Objetos (OO)
+# PILARES DA ORIENTAÇÃO A OBJETOS (OO)
 	A orientação a objetos é o principal paradigma - forma de organizar as ideias para modelar o mundo real dentro de um sistema - do c#
 
-	1. Abstração - é entender o contexto do seu projeto/problema e criar classes somente com atributos e métodos relevantes, por exemplo, a classe cliente terá 
-    atributos diferentes para um hospital e uma padaria, já que ela está em contextos diferentes e possui necessidades diferentes
-	2. Herança - consiste em reutilizar código. Muitas vezes a mesma funcionalidade é repetida diversas vezes no código, usar a herança permite agilizar o desenvolvimento, facilitar manutenção, deixar o projeto mais limpo e evitar reescrever o código.
+## Abstração 
+	É entender o contexto do seu projeto/problema e criar classes somente com atributos e métodos relevantes, por exemplo, 
+	a classe cliente terá atributos diferentes para um hospital e uma padaria, já que ela está em contextos diferentes e 
+	possui necessidades diferentes
+	http://contembits.com.br/minicursos/poo/Abstracao.aspx
+
+## Herança 
+	Consiste em reutilizar código. Muitas vezes a mesma funcionalidade é repetida diversas vezes no código, usar a herança
+	permite agilizar o desenvolvimento, facilitar manutenção, deixar o projeto mais limpo e evitar reescrever o código.
 	
 	herança ("É UM(A)"):					composição ("TEM UM(A)"):
 
@@ -71,5 +89,34 @@
 											}
 											
 											ex: O carro tem um pneu
+	http://contembits.com.br/minicursos/poo/Heranca.aspx
 
-	3. Encapsulamento - é quando você esconde parte do código (deixando private), com o objetivo de diminuir a dependencia entre as classes. Só deixa visível e acessável (public) o que realmente for necessário
+## Encapsulamento 
+	É quando você esconde parte do código (deixando private), com o objetivo de diminuir a dependencia entre as classes. 
+	Só deixa visível e acessável (public) o que realmente for necessário.
+
+### Manipuladores de privacidade:
+	* public - qualquer projeto pode acessar 
+	* internal - só pode ser acessado dentro do projeto
+	* protected - só é acessado dentro da classe e por instâncias (herança) 
+	* private - acessado somente dentro da classe 
+	http://contembits.com.br/minicursos/poo/Encapsulamento-e-Modificadores-de-Acesso.aspx
+
+## Polimorfismo 
+	Consiste em tratar objetos de uma subclasse de forma genérica, como se fossem um objeto da superclasse. 
+	Assim, os objetos serão tratados de maneira semelhante e terão resultados/retornos específicos (de acordo com a subclasse)
+	Ex: Método para venda de carro
+	
+		class Carro {}
+		class Civic : Carro {}
+		class Celta : Carro {}
+		class Ferrari : Carro {}
+
+	Correto:
+		 void VenderCarro (Carro carro) {}
+	
+	Errado:
+		void VenderCivic (Civic civic) {}
+		void VenderCelta (Celta celta) {}
+		void VenderFerrari (Ferrari ferrari) {}
+	http://contembits.com.br/minicursos/poo/Polimorfismo.aspx 

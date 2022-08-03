@@ -1,5 +1,6 @@
 ﻿using curso_csharp.ClassesEMetodos;
 using curso_csharp.Colecoes;
+using curso_csharp.OrientacaoObjetos;
 
 namespace curso_csharp
 {
@@ -33,6 +34,9 @@ namespace curso_csharp
                 {"Igualdade - coleções", Igualdade.Executar},
                 {"Stack - coleções", UsandoStack.Executar},
                 {"Dictionary - coleções", UsandoDictionary.Executar},
+
+                //Orientação a Objetos
+                {"Herança - orientação a objetos", Heranca.Executar},
             });
 
             central.SelecionarEExecutar();
