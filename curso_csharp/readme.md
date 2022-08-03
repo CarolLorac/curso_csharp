@@ -120,3 +120,14 @@
 		void VenderCelta (Celta celta) {}
 		void VenderFerrari (Ferrari ferrari) {}
 	http://contembits.com.br/minicursos/poo/Polimorfismo.aspx 
+
+
+# CONFIGURAÇÕES
+
+## Como adicionar um novo projeto Class Library (projeto tratado como uma biblioteca):
+	1. Clicar com o botão direito no Solution
+	2. Add > New Project
+	3. Selecionar Class Library > Next
+	4. Solution Explorer > Projeto Principal > Dependencies > Clicar com o botão direito
+	5. Add Project Reference > Selecionar o projeto que você acabou de criar > ok
+	6. Adicionar using na classe que for usar o projeto

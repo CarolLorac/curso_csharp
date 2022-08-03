@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens
 		readme.md = readme.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoEncapsulamento", "ProjetoEncapsulamento\ProjetoEncapsulamento.csproj", "{132D68B9-8D27-4011-8F23-92249BCB2CDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{069B9C10-5CCA-4E8A-8F6E-808E680A2876}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{069B9C10-5CCA-4E8A-8F6E-808E680A2876}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{069B9C10-5CCA-4E8A-8F6E-808E680A2876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132D68B9-8D27-4011-8F23-92249BCB2CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132D68B9-8D27-4011-8F23-92249BCB2CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132D68B9-8D27-4011-8F23-92249BCB2CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132D68B9-8D27-4011-8F23-92249BCB2CDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

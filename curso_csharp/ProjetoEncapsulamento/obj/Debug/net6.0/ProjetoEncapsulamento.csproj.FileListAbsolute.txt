@@ -1,0 +1,12 @@
+C:\Users\CarolineSouza\Source\Repos\curso_csharp\curso_csharp\ProjetoEncapsulamento\bin\Debug\net6.0\ProjetoEncapsulamento.deps.json
+C:\Users\CarolineSouza\Source\Repos\curso_csharp\curso_csharp\ProjetoEncapsulamento\bin\Debug\net6.0\ProjetoEncapsulamento.dll
+C:\Users\CarolineSouza\Source\Repos\curso_csharp\curso_csharp\ProjetoEncapsulamento\bin\Debug\net6.0\ProjetoEncapsulamento.pdb
+C:\Users\CarolineSouza\Source\Repos\curso_csharp\curso_csharp\ProjetoEncapsulamento\obj\Debug\net6.0\ProjetoEncapsulamento.csproj.AssemblyReference.cache
+C:\Users\CarolineSouza\Source\Repos\curso_csharp\curso_csharp\ProjetoEncapsulamento\obj\Debug\net6.0\ProjetoEncapsulamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CarolineSouza\Source\Repos\curso_csharp\curso_csharp\ProjetoEncapsulamento\obj\Debug\net6.0\ProjetoEncapsulamento.AssemblyInfoInputs.cache
+C:\Users\CarolineSouza\Source\Repos\curso_csharp\curso_csharp\ProjetoEncapsulamento\obj\Debug\net6.0\ProjetoEncapsulamento.AssemblyInfo.cs
+C:\Users\CarolineSouza\Source\Repos\curso_csharp\curso_csharp\ProjetoEncapsulamento\obj\Debug\net6.0\ProjetoEncapsulamento.csproj.CoreCompileInputs.cache
+C:\Users\CarolineSouza\Source\Repos\curso_csharp\curso_csharp\ProjetoEncapsulamento\obj\Debug\net6.0\ProjetoEncapsulamento.dll
+C:\Users\CarolineSouza\Source\Repos\curso_csharp\curso_csharp\ProjetoEncapsulamento\obj\Debug\net6.0\refint\ProjetoEncapsulamento.dll
+C:\Users\CarolineSouza\Source\Repos\curso_csharp\curso_csharp\ProjetoEncapsulamento\obj\Debug\net6.0\ProjetoEncapsulamento.pdb
+C:\Users\CarolineSouza\Source\Repos\curso_csharp\curso_csharp\ProjetoEncapsulamento\obj\Debug\net6.0\ref\ProjetoEncapsulamento.dll

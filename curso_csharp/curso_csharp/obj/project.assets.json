@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ProjetoEncapsulamento/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ProjetoEncapsulamento.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjetoEncapsulamento.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ProjetoEncapsulamento/1.0.0": {
+      "type": "project",
+      "path": "../ProjetoEncapsulamento/ProjetoEncapsulamento.csproj",
+      "msbuildProject": "../ProjetoEncapsulamento/ProjetoEncapsulamento.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "ProjetoEncapsulamento >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\CarolineSouza\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\ProjetoEncapsulamento\\ProjetoEncapsulamento.csproj": {
+              "projectPath": "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\ProjetoEncapsulamento\\ProjetoEncapsulamento.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

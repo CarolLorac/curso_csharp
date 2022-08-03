@@ -43,3 +43,6 @@ C:\Users\Carol\Source\Repos\curso_csharp\curso_csharp\curso_csharp\obj\Debug\net
 C:\Users\Carol\Source\Repos\curso_csharp\curso_csharp\curso_csharp\obj\Debug\net6.0\curso_csharp.pdb
 C:\Users\Carol\Source\Repos\curso_csharp\curso_csharp\curso_csharp\obj\Debug\net6.0\curso_csharp.genruntimeconfig.cache
 C:\Users\Carol\Source\Repos\curso_csharp\curso_csharp\curso_csharp\obj\Debug\net6.0\ref\curso_csharp.dll
+C:\Users\CarolineSouza\Source\Repos\curso_csharp\curso_csharp\curso_csharp\bin\Debug\net6.0\ProjetoEncapsulamento.dll
+C:\Users\CarolineSouza\Source\Repos\curso_csharp\curso_csharp\curso_csharp\bin\Debug\net6.0\ProjetoEncapsulamento.pdb
+C:\Users\CarolineSouza\Source\Repos\curso_csharp\curso_csharp\curso_csharp\obj\Debug\net6.0\curso_csharp.csproj.CopyComplete
