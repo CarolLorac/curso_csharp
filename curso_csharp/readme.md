@@ -76,6 +76,9 @@
 	**Classe concreta** - é uma classe que possui todos os métodos implementados
 	**Interface** - define a estrutura padrão que uma classe deve implementar. TODOS os métodos definidos na interface devem ser implementados.
 
+## Lambdas (funções anônimas)
+	
+
 # PILARES DA ORIENTAÇÃO A OBJETOS (OO)
 	A orientação a objetos é o principal paradigma - forma de organizar as ideias para modelar o mundo real dentro de um sistema - do c#
 

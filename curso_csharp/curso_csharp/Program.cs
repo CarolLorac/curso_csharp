@@ -1,5 +1,6 @@
 ﻿using curso_csharp.ClassesEMetodos;
 using curso_csharp.Colecoes;
+using curso_csharp.MetodosEFuncoes;
 using curso_csharp.OrientacaoObjetos;
 
 namespace curso_csharp
@@ -9,40 +10,44 @@ namespace curso_csharp
         static void Main(string[] args)
         {
             var central = new CentralDeExercicios(new Dictionary<string, Action>(){
-                //Classes e métodos
-                {"Construtores - classes e métodos", Construtores.Executar},
-                {"Métodos com retorno - classes e métodos", MetodosComRetorno.Executar},
-                {"Atributos estáticos - classes e métodos", AtributosEstaticos.Executar},
-                {"Desafio atributo - classes e métodos", DesafioAtributo.Executar},
-                {"Parametros variáveis (params) - classes e métodos", Params.Executar},
-                {"Parametros nomeados - classes e métodos", ParametrosNomeados.Executar},
-                {"Getters e setters - classes e métodos", GetSet.Executar},
-                {"Propriedade - classes e métodos", Propriedade.Executar},
-                {"Atributo readonly - classes e métodos", Readonly.Executar},
-                {"Enumerador (enum) - classes e métodos", Enumerador.Executar},
-                {"Struct - classes e métodos", Struct.Executar},
-                {"Struct vs Classe - classes e métodos", StructVsClasse.Executar},
-                {"Parâmetro com valor padrão - classes e métodos", ParametroPadrao.Executar},
-                {"Parâmetros por referência - classes e métodos", ParametrosPorReferencia.Executar},
+
+                //Classes e Métodos
+                {"Construtores - Classes e Métodos", Construtores.Executar},
+                {"Métodos com retorno - Classes e Métodos", MetodosComRetorno.Executar},
+                {"Atributos estáticos - Classes e Métodos", AtributosEstaticos.Executar},
+                {"Desafio atributo - Classes e Métodos", DesafioAtributo.Executar},
+                {"Parametros variáveis (params) - Classes e Métodos", Params.Executar},
+                {"Parametros nomeados - Classes e Métodos", ParametrosNomeados.Executar},
+                {"Getters e setters - Classes e Métodos", GetSet.Executar},
+                {"Propriedade - Classes e Métodos", Propriedade.Executar},
+                {"Atributo readonly - Classes e Métodos", Readonly.Executar},
+                {"Enumerador (enum) - Classes e Métodos", Enumerador.Executar},
+                {"Struct - Classes e Métodos", Struct.Executar},
+                {"Struct vs Classe - Classes e Métodos", StructVsClasse.Executar},
+                {"Parâmetro com valor padrão - Classes e Métodos", ParametroPadrao.Executar},
+                {"Parâmetros por referência - Classes e Métodos", ParametrosPorReferencia.Executar},
 
                 //Coleções
-                {"Array - coleções", UsandoArray.Executar},
-                {"List - coleções", UsandoList.Executar},
-                {"Array List - coleções", UsandoArrayList.Executar},
-                {"Set - coleções", UsandoSet.Executar},
-                {"Queue - coleções", UsandoQueue.Executar},
-                {"Igualdade - coleções", Igualdade.Executar},
-                {"Stack - coleções", UsandoStack.Executar},
-                {"Dictionary - coleções", UsandoDictionary.Executar},
+                {"Array - Coleções", UsandoArray.Executar},
+                {"List - Coleções", UsandoList.Executar},
+                {"Array List - Coleções", UsandoArrayList.Executar},
+                {"Set - Coleções", UsandoSet.Executar},
+                {"Queue - Coleções", UsandoQueue.Executar},
+                {"Igualdade - Coleções", Igualdade.Executar},
+                {"Stack - Coleções", UsandoStack.Executar},
+                {"Dictionary - Coleções", UsandoDictionary.Executar},
 
                 //Orientação a Objetos
-                {"Herança - orientação a objetos", Heranca.Executar},
-                {"Construtor This - orientação a objetos", ConstrutorThis.Executar},
-                {"Encapsulamento - orientação a objetos", Encapsulamento.Executar},
-                {"Polimorfismo - orientação a objetos", Polimorfismo.Executar},
-                {"Classe Abstrata - orientação a objetos", ClasseAbstrata.Executar},
-                {"Interface - orientação a objetos", Interface.Executar},
-                {"Sealed - orientação a objetos", Sealed.Executar},
+                {"Herança - Orientação a Objetos", Heranca.Executar},
+                {"Construtor This - Orientação a Objetos", ConstrutorThis.Executar},
+                {"Encapsulamento - Orientação a Objetos", Encapsulamento.Executar},
+                {"Polimorfismo - Orientação a Objetos", Polimorfismo.Executar},
+                {"Classe Abstrata - Orientação a Objetos", ClasseAbstrata.Executar},
+                {"Interface - Orientação a Objetos", Interface.Executar},
+                {"Sealed - Orientação a Objetos", Sealed.Executar},
+
+                //Métodos e Funções
+                {"Lambda - Métodos e Funções", Lambda.Executar},
             });
 
             central.SelecionarEExecutar();

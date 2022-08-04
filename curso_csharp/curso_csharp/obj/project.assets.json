@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Carol\\.nuget\\packages\\": {}
+    "C:\\Users\\CarolineSouza\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carol\\Source\\Repos\\curso_csharp\\curso_csharp\\curso_csharp\\curso_csharp.csproj",
+      "projectUniqueName": "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\curso_csharp\\curso_csharp.csproj",
       "projectName": "curso_csharp",
-      "projectPath": "C:\\Users\\Carol\\Source\\Repos\\curso_csharp\\curso_csharp\\curso_csharp\\curso_csharp.csproj",
-      "packagesPath": "C:\\Users\\Carol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carol\\Source\\Repos\\curso_csharp\\curso_csharp\\curso_csharp\\obj\\",
+      "projectPath": "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\curso_csharp\\curso_csharp.csproj",
+      "packagesPath": "C:\\Users\\CarolineSouza\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\curso_csharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Carol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CarolineSouza\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Carol\\Source\\Repos\\curso_csharp\\curso_csharp\\ProjetoEncapsulamento\\ProjetoEncapsulamento.csproj": {
-              "projectPath": "C:\\Users\\Carol\\Source\\Repos\\curso_csharp\\curso_csharp\\ProjetoEncapsulamento\\ProjetoEncapsulamento.csproj"
+            "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\ProjetoEncapsulamento\\ProjetoEncapsulamento.csproj": {
+              "projectPath": "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\ProjetoEncapsulamento\\ProjetoEncapsulamento.csproj"
             }
           }
         }
