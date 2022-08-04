@@ -7,6 +7,8 @@
   classe subclasse:
   public override int Somar() {} 
 
+  **sealed** - proibe qualquer classe ser herdada e qualquer método ser sobrescrito
+ 
 # CLASSES E MÉTODOS
 
 ## Construtores
@@ -66,6 +68,13 @@
     { 
         Console.WriteLine($"O filme {filme.Value} foi lançado em {filme.Key}"); 
     }	
+
+## Classes abstratas vs Classes concretas vs Interface
+	**Classe abstrata** - é uma classe que serve de modelo para as outras classes (se comporta como uma superclasse). 
+	Ela não pode ser instânciada e pode possuir métodos concretos e/ou abstratos - métodos abstratos são métodos que não possuem implementação (corpo).
+	Obs: Métodos só podem ser abstrados em classes abstratas e sempre devem ser implementados quando a classe for herdada
+	**Classe concreta** - é uma classe que possui todos os métodos implementados
+	**Interface** - define a estrutura padrão que uma classe deve implementar. TODOS os métodos definidos na interface devem ser implementados.
 
 # PILARES DA ORIENTAÇÃO A OBJETOS (OO)
 	A orientação a objetos é o principal paradigma - forma de organizar as ideias para modelar o mundo real dentro de um sistema - do c#
