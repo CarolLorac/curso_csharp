@@ -1,5 +1,6 @@
 ﻿using curso_csharp.ClassesEMetodos;
 using curso_csharp.Colecoes;
+using curso_csharp.Excecoes;
 using curso_csharp.MetodosEFuncoes;
 using curso_csharp.OrientacaoObjetos;
 
@@ -48,6 +49,15 @@ namespace curso_csharp
 
                 //Métodos e Funções
                 {"Lambda - Métodos e Funções", Lambda.Executar},
+                {"Lambdas como Delegate - Métodos e Funções", LambdaDelegate.Executar},
+                {"Delegate - Métodos e Funções", UsandoDelegate.Executar},
+                {"Delegate com Função Anônima- Métodos e Funções", DelegateComFuncaoAnonima.Executar},
+                {"Delegate como Parâmetro- Métodos e Funções", DelegateComoParametro.Executar},
+                {"Métodos de Extensão - Métodos e Funções", MetodosDeExtensao.Executar},
+
+                //Exceções (erros)
+                {"Tratamento de Erro - Exceções", TratamentoErro.Executar},
+                {"Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
             });
 
             central.SelecionarEExecutar();

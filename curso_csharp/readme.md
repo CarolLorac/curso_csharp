@@ -78,6 +78,23 @@
 
 ## Lambdas (funções anônimas)
 	
+## Action e Func
+	Possibilitam armazenar uma função dentro de um variável
+	Action - não possui retorno - é void
+	ex: Action<string> declarar = (nome) => Console.WriteLine($"{nome}, te amo!!");
+
+	Func - possui retorno
+	ex:  Func <int, int, int, string> formatarData = (dia, mes, ano) =>
+            {
+                return String.Format($"{dia:D2}/{mes:D2}/{ano:D4}"); 
+            };
+
+	obs: <tipo(s) parametro(s), tipo retorno> nomeFuncao = (nome parametro(s))
+}
+
+## Delegate
+	Define a assinatura/estrutura de uma função
+	
 
 # PILARES DA ORIENTAÇÃO A OBJETOS (OO)
 	A orientação a objetos é o principal paradigma - forma de organizar as ideias para modelar o mundo real dentro de um sistema - do c#

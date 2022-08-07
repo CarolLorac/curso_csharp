@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\ProjetoEncapsulamento\\ProjetoEncapsulamento.csproj": {}
+    "C:\\Users\\Carol\\Source\\Repos\\curso_csharp\\curso_csharp\\ProjetoEncapsulamento\\ProjetoEncapsulamento.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\ProjetoEncapsulamento\\ProjetoEncapsulamento.csproj": {
+    "C:\\Users\\Carol\\Source\\Repos\\curso_csharp\\curso_csharp\\ProjetoEncapsulamento\\ProjetoEncapsulamento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\ProjetoEncapsulamento\\ProjetoEncapsulamento.csproj",
+        "projectUniqueName": "C:\\Users\\Carol\\Source\\Repos\\curso_csharp\\curso_csharp\\ProjetoEncapsulamento\\ProjetoEncapsulamento.csproj",
         "projectName": "ProjetoEncapsulamento",
-        "projectPath": "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\ProjetoEncapsulamento\\ProjetoEncapsulamento.csproj",
-        "packagesPath": "C:\\Users\\CarolineSouza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CarolineSouza\\Source\\Repos\\curso_csharp\\curso_csharp\\ProjetoEncapsulamento\\obj\\",
+        "projectPath": "C:\\Users\\Carol\\Source\\Repos\\curso_csharp\\curso_csharp\\ProjetoEncapsulamento\\ProjetoEncapsulamento.csproj",
+        "packagesPath": "C:\\Users\\Carol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carol\\Source\\Repos\\curso_csharp\\curso_csharp\\ProjetoEncapsulamento\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CarolineSouza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Carol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
