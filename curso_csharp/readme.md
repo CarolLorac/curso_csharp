@@ -4,7 +4,7 @@
   ex super classe:
   public virtual int Somar() {} 
   
-  classe subclasse:
+  subclasse:
   public override int Somar() {} 
 
   **sealed** - proibe qualquer classe ser herdada e qualquer método ser sobrescrito
@@ -95,6 +95,8 @@
 ## Delegate
 	Define a assinatura/estrutura de uma função
 	
+# MANIPULAÇÃO DE ARQUIVOS
+	File.Exists(caminho) - verifica se o arquivo existe
 
 # PILARES DA ORIENTAÇÃO A OBJETOS (OO)
 	A orientação a objetos é o principal paradigma - forma de organizar as ideias para modelar o mundo real dentro de um sistema - do c#

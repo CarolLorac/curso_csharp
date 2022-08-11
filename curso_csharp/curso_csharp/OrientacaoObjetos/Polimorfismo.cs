@@ -57,13 +57,13 @@ namespace curso_csharp.OrientacaoObjetos
             pessoa.Comer(feijao.Peso);
 
             Console.WriteLine($"O peso da pessoa após comer é {pessoa.Peso}kg");
-            
-            
+
+
             //Pessoa pessoa = new Pessoa(61);
             //Comida comida = new Arroz(0.1);
             //pessoa.Comer(comida.Peso);
 
-            //comida = new Feijao(); - perguntar qual tipo de contrutor ele acha melhor tbm
+            //comida = new Feijao(); -perguntar qual tipo de contrutor ele acha melhor tbm
             //comida.Peso = 0.3;
             //Console.WriteLine(pessoa.Comer(comida.Peso));
         }
