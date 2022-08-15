@@ -19,6 +19,8 @@ namespace curso_csharp.ClassesEMetodos
             Valor = valor;
         }
 
+        public Produto() { }
+
         public double CalcularDesconto()
         {
             return Valor - Valor * Desconto;

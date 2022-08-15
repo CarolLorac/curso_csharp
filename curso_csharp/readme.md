@@ -9,6 +9,9 @@
 
   **sealed** - proibe qualquer classe ser herdada e qualquer método ser sobrescrito
  
+# LINQ - linguagem de consulta integrada
+	
+
 # CLASSES E MÉTODOS
 
 ## Construtores

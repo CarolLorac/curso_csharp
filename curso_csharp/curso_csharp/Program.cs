@@ -4,6 +4,7 @@ using curso_csharp.Colecoes;
 using curso_csharp.Excecoes;
 using curso_csharp.MetodosEFuncoes;
 using curso_csharp.OrientacaoObjetos;
+using curso_csharp.TopicosAvancados;
 
 namespace curso_csharp
 {
@@ -27,7 +28,7 @@ namespace curso_csharp
                 {"Struct - Classes e Métodos", Struct.Executar},
                 {"Struct vs Classe - Classes e Métodos", StructVsClasse.Executar},
                 {"Parâmetro com valor padrão - Classes e Métodos", ParametroPadrao.Executar},
-                {"Parâmetros por referência - Classes e Métodos", ParametrosPorReferencia.Executar},
+                {"Parâmetros por referência - Classes e Métodos\n", ParametrosPorReferencia.Executar},
 
                 //Coleções
                 {"Array - Coleções", UsandoArray.Executar},
@@ -37,7 +38,7 @@ namespace curso_csharp
                 {"Queue - Coleções", UsandoQueue.Executar},
                 {"Igualdade - Coleções", Igualdade.Executar},
                 {"Stack - Coleções", UsandoStack.Executar},
-                {"Dictionary - Coleções", UsandoDictionary.Executar},
+                {"Dictionary - Coleções\n", UsandoDictionary.Executar},
 
                 //Orientação a Objetos
                 {"Herança - Orientação a Objetos", Heranca.Executar},
@@ -46,7 +47,7 @@ namespace curso_csharp
                 {"Polimorfismo - Orientação a Objetos", Polimorfismo.Executar},
                 {"Classe Abstrata - Orientação a Objetos", ClasseAbstrata.Executar},
                 {"Interface - Orientação a Objetos", Interface.Executar},
-                {"Sealed - Orientação a Objetos", Sealed.Executar},
+                {"Sealed - Orientação a Objetos\n", Sealed.Executar},
 
                 //Métodos e Funções
                 {"Lambda - Métodos e Funções", Lambda.Executar},
@@ -54,11 +55,11 @@ namespace curso_csharp
                 {"Delegate - Métodos e Funções", UsandoDelegate.Executar},
                 {"Delegate com Função Anônima- Métodos e Funções", DelegateComFuncaoAnonima.Executar},
                 {"Delegate como Parâmetro- Métodos e Funções", DelegateComoParametro.Executar},
-                {"Métodos de Extensão - Métodos e Funções", MetodosDeExtensao.Executar},
+                {"Métodos de Extensão - Métodos e Funções\n", MetodosDeExtensao.Executar},
 
                 //Exceções (erros)
                 {"Tratamento de Erro - Exceções", TratamentoErro.Executar},
-                {"Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
+                {"Exceções Personalizadas - Exceções\n", ExcecoesPersonalizadas.Executar},
 
                 //Api
                 {"Primeiro Arquivo - Api", PrimeiroArquivo.Executar},
@@ -66,6 +67,16 @@ namespace curso_csharp
                 {"File Info - Api", ExemploFileInfo.Executar},
                 {"Diretório - Api", Diretorios.Executar},
                 {"Directory Info - Api", ExemploDirectoryInfo.Executar},
+                {"Path - Api", ExemploPath.Executar},
+                {"DateTime - Api", ExemploDateTime.Executar},
+                {"Time Span - Api\n", ExemploTimeSpan.Executar},
+
+                //Tópicos Avançados
+                {"LINQ #1 - Tópicos Avançados", LINQ1.Executar},
+                {"LINQ #2 - Tópicos Avançados", LINQ2.Executar},
+                {"Nullable - Tópicos Avançados", ExemploNullable.Executar},
+                {"Dynamic - Tópicos Avançados", ExemploDynamics.Executar},
+                {"Generic - Tópicos Avançados", ExemploGenerics.Executar},
             });
 
             central.SelecionarEExecutar();
