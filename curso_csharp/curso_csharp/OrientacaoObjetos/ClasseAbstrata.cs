@@ -17,6 +17,11 @@ namespace curso_csharp.OrientacaoObjetos
         {
             return "Olá, sou a Bixby";
         }
+
+        public override string Tocar()
+        {
+            return "Alo alo";
+        }
     }
 
     class Iphone : Celular
@@ -39,7 +44,7 @@ namespace curso_csharp.OrientacaoObjetos
 
             foreach(var celular in celulares)
             {
-                Console.WriteLine($"Assistente {celular.GetType().Name}: {celular.Assistente()}");
+                Console.WriteLine($"Assistente {celular.GetType().Name}: {celular.Assistente()}  {celular.Tocar()}");
             }
         }
     }

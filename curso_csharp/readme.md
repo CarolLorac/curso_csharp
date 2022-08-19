@@ -1,141 +1,147 @@
-# CLASSES E MÉTODOS
+# ğŸš€CURSO C#
+	Esse readme contÃ©m anotaÃ§Ãµes feitas durante o curso "C# Curso Completo: Do BÃ¡sico ao AvanÃ§ado!" do professor Leonardo LeitÃ£o na plataforma Udemy!! 
+https://www.udemy.com/course/curso-c-sharp/
+
+# ğŸ•¹ï¸CLASSES E Mï¿½TODOS
 
 ## Construtores
-	O nome do construtor é sempre igual ao da classe
-	Por padrão, se a classe nao definir um construtor, é dado um construtor padrão, ou seja, sem parâmetros
+	O nome do construtor ï¿½ sempre igual ao da classe
+	Por padrï¿½o, se a classe nao definir um construtor, ï¿½ dado um construtor padrï¿½o, ou seja, sem parï¿½metros
 
 ## Privacidade
-	Quando um atributo/método não tem nada escrito indiciando se private ou public, será sempre private
+	Quando um atributo/mï¿½todo nï¿½o tem nada escrito indiciando se private ou public, serï¿½ sempre private
 
-## Diferença entre readonly e const
-	readonly - constante de tempo de execução - se o valor da constante poderá por qualquer motivo ser alterado no futuro, então 
-	use readonly - é mais flexivel, pode ser usado em qualquer tipo de dados
-	const - constante de tempo de compilação - se o valor da constante NUNCA for alterado, então use const - é mais limitada, 
-	só pode ser usada em numeros, strings e nulosgit
-	https://www.macoratti.net/17/10/c_const1.htm#:~:text=Se%20o%20valor%20da%20constante,for%20alterada%20ent%C3%A3o%20use%20const
+## Diferenï¿½a entre readonly e const
+	readonly - constante de tempo de execuï¿½ï¿½o - se o valor da constante poderï¿½ por qualquer motivo ser alterado no futuro, entï¿½o 
+	use readonly - ï¿½ mais flexivel, pode ser usado em qualquer tipo de dados
+	const - constante de tempo de compilaï¿½ï¿½o - se o valor da constante NUNCA for alterado, entï¿½o use const - ï¿½ mais limitada, 
+	sï¿½ pode ser usada em numeros, strings e nulosgit
+https://www.macoratti.net/17/10/c_const1.htm#:~:text=Se%20o%20valor%20da%20constante,for%20alterada%20ent%C3%A3o%20use%20const
 
 ## Enumerador
-	Pode ser usado como um tipo de dado e possui uma lista de valores pré-definidos pelo programador
+	Pode ser usado como um tipo de dado e possui uma lista de valores prï¿½-definidos pelo programador
+~~~C#
+enum GeneroFilmeEnum
+{
+	[Description("Aï¿½ï¿½o")]
+	Acao = 0,
 
-    enum GeneroFilmeEnum
-	{
-        [Description("Ação")]
-		Acao = 0,
-
-        [Description("Teror")]
-		Terror = 1,
-		
-		[Description("Comédia")]
-		Comedia = 2
-	}
-
+	[Description("Teror")]
+	Terror = 1,
+	
+	[Description("Comï¿½dia")]
+	Comedia = 2
+}
+~~~
 ## Get e Set
-	São métodos utilizados para manipular (acessar e alterar) atributos 
-	**get** - lê atributo
-    **set** - altera atributo
+	Sï¿½o mï¿½todos utilizados para manipular (acessar e alterar) atributos 
+	get - lï¿½ atributo
+	set - altera atributo
 	ex: public string Nome {get; set;}
-
-## Parametros por valor e por referencia 
-	**valor** - 
+  
+## Parametros por valor e por referÃªncia 
+ 	Por valor - Ã© passada uma cÃ³pia do valor da vÃ¡riavel - quando hÃ¡ alteraÃ§Ã£o, o valor da variavel original nÃ£o Ã© modificado
+	Por referÃªncia - Ã© passada a prÃ³pria variÃ¡vel - vocÃª tem acesso ao que estÃ¡ no endereÃ§o de memÃ³ria, quando hÃ¡ uma alteraÃ§Ã£o, o valor da variÃ¡vel original tambÃ©m Ã© modificado
 
 # PROPRIEDADES CSHARP
-  **override** - sobrescreve um método que foi definido na classe pai (superclasse)
-  para o override funcionar, tem que adicionar virtual no método da classe pai
-  ex super classe:
-  public virtual int Somar() {} 
+  	override - sobrescreve um mï¿½todo que foi definido na classe pai (superclasse)
+  	para o override funcionar, tem que adicionar virtual no mï¿½todo da classe pai
+	ex super classe:
+	public virtual int Somar() {} 
   
-  subclasse:
-  public override int Somar() {} 
+	subclasse:
+	public override int Somar() {} 
 
-  **sealed** - proibe qualquer classe ser herdada e qualquer método ser sobrescrito
- 
-	
-# COLEÇÕES
+	sealed - proibe qualquer classe ser herdada e qualquer mï¿½todo ser sobrescrito
+  
+# ğŸ“šCOLEï¿½ï¿½ES
 
-## Diferença entre array e list
-	A principal diferença entre essas duas coleções é que o array possui um tamanho fixo e a list é dinâmica (cresce de acordo 
-	com a quantidade de itens que são adicionados)
+## Diferenï¿½a entre array e list
+	A principal diferenï¿½a entre essas duas coleï¿½ï¿½es ï¿½ que o array possui um tamanho fixo e a list ï¿½ dinï¿½mica (cresce de acordo 
+	com a quantidade de itens que sï¿½o adicionados)
 
-## Diferença de queue (fila) e stack (pilha)
-   Queue - o primeiro a entrar é o primeiro a sair
-   Stack - o primeiro a entrar é o último a sair 
+## Diferenï¿½a de queue (fila) e stack (pilha)
+   Queue - o primeiro a entrar ï¿½ o primeiro a sair
+   Stack - o primeiro a entrar ï¿½ o ï¿½ltimo a sair 
 
-## Manipulação de dados
+## Manipulaï¿½ï¿½o de dados
 	item.GetType() - pega o tipo de dado do item (ex: int, double, etc)
 
-## Manipulação de listas
+## Manipulaï¿½ï¿½o de listas
 	lista.Add() - adiciona um elemento na lista
 	lista.AddRange() - adiciona os elementos de uma lista dentro da lista
-	lista.RemoveAt(index) - remove o elemento que está no indice especificado
+	lista.RemoveAt(index) - remove o elemento que estï¿½ no indice especificado
 	lista.IndexOf(item) - verifica o indice do item/elemento especificado
 
-## Manipulação de filas
+## Manipulaï¿½ï¿½o de filas
 	fila.Enqueue() - adiciona um item na fila
 	fila.Peek() - exibe o primeiro elemento da fila
 	fila.Count - exibe a quantidade de elementos na lista
 	fila.Dequeue() - remove o primeiro elemento da fila
 
-## Manipulação de pilhas
+## Manipulaï¿½ï¿½o de pilhas
     pilha.Push() - adiciona um item na pilha
-	pilha.Pop() - remove elemento do topo da pilha (último a ser adicionado)
+	pilha.Pop() - remove elemento do topo da pilha (ï¿½ltimo a ser adicionado)
 	pilha.Peek() - exibe o elemento do topo da pilha
 
 ## Formas de navegar em Dictionary
-	foreach (var ano in filmes.Keys) - navega somente nas Keys
-    {
-        Console.WriteLine(ano.ToString());
-    }    
+~~~C#
+foreach (var ano in filmes.Keys) - navega somente nas Keys
+{
+	Console.WriteLine(ano.ToString());
+}    
 
-	foreach (var filme in filmes.Values) - navega somente nos Values
-    {
-        Console.WriteLine(filme);
-    }
+foreach (var filme in filmes.Values) - navega somente nos Values
+{
+	Console.WriteLine(filme);
+}
 
-    foreach (var filme in filmes) - navega no dictionary inteiro
-    { 
-        Console.WriteLine($"O filme {filme.Value} foi lançado em {filme.Key}"); 
-    }	
+foreach (var filme in filmes) - navega no dictionary inteiro
+{ 
+	Console.WriteLine($"O filme {filme.Value} foi lanï¿½ado em {filme.Key}"); 
+}	
+~~~
 
+# ğŸ”—PILARES DA ORIENTAï¿½ï¿½O A OBJETOS (OO)
+	A orientaï¿½ï¿½o a objetos ï¿½ o principal paradigma do c# - forma de organizar as ideias para modelar o mundo real dentro de um sistema
 
-# PILARES DA ORIENTAÇÃO A OBJETOS (OO)
-	A orientação a objetos é o principal paradigma - forma de organizar as ideias para modelar o mundo real dentro de um sistema - do c#
-
-## Abstração 
-	É entender o contexto do seu projeto/problema e criar classes somente com atributos e métodos relevantes, por exemplo, 
-	a classe cliente terá atributos diferentes para um hospital e uma padaria, já que ela está em contextos diferentes e 
+## Abstraï¿½ï¿½o 
+	ï¿½ entender o contexto do seu projeto/problema e criar classes somente com atributos e mï¿½todos relevantes, por exemplo, 
+	a classe cliente terï¿½ atributos diferentes para um hospital e uma padaria, jï¿½ que ela estï¿½ em contextos diferentes e 
 	possui necessidades diferentes
-	http://contembits.com.br/minicursos/poo/Abstracao.aspx
+http://contembits.com.br/minicursos/poo/Abstracao.aspx
 
-## Herança 
-	Consiste em reutilizar código. Muitas vezes a mesma funcionalidade é repetida diversas vezes no código, usar a herança
-	permite agilizar o desenvolvimento, facilitar manutenção, deixar o projeto mais limpo e evitar reescrever o código.
+## Heranï¿½a 
+	Consiste em reutilizar cï¿½digo. Muitas vezes a mesma funcionalidade ï¿½ repetida diversas vezes no cï¿½digo, usar a heranï¿½a
+	permite agilizar o desenvolvimento, facilitar manutenï¿½ï¿½o, deixar o projeto mais limpo e evitar reescrever o cï¿½digo.
 	
-	herança ("É UM(A)"):					composição ("TEM UM(A)"):
+	heranï¿½a ("ï¿½ UM(A)"):					composiï¿½ï¿½o ("TEM UM(A)"):
 
 	class Animal {}							class Pneu {}
 	class Cachorro : Animal {}			    class Carro 
 											{
-	ex: O cachorro é um animal					public Pneu pneu;
+	ex: O cachorro ï¿½ um animal					public Pneu pneu;
 											}
 											
 											ex: O carro tem um pneu
-	http://contembits.com.br/minicursos/poo/Heranca.aspx
+http://contembits.com.br/minicursos/poo/Heranca.aspx
 
 ## Encapsulamento 
-	É quando você esconde parte do código (deixando private), com o objetivo de diminuir a dependencia entre as classes. 
-	Só deixa visível e acessável (public) o que realmente for necessário.
+	ï¿½ quando vocï¿½ esconde parte do cï¿½digo (deixando private), com o objetivo de diminuir a dependencia entre as classes. 
+	Sï¿½ deixa visï¿½vel e acessï¿½vel (public) o que realmente for necessï¿½rio.
 
 ### Manipuladores de privacidade:
-	* public - qualquer projeto pode acessar 
-	* internal - só pode ser acessado dentro do projeto
-	* protected - só é acessado dentro da classe e por instâncias (herança) 
-	* private - acessado somente dentro da classe 
-	http://contembits.com.br/minicursos/poo/Encapsulamento-e-Modificadores-de-Acesso.aspx
+* public - qualquer projeto pode acessar 
+* internal - sï¿½ pode ser acessado dentro do projeto
+* protected - sï¿½ ï¿½ acessado dentro da classe e por instï¿½ncias (heranï¿½a) 
+* private - acessado somente dentro da classe 
+
+http://contembits.com.br/minicursos/poo/Encapsulamento-e-Modificadores-de-Acesso.aspx
 
 ## Polimorfismo 
-	Consiste em tratar objetos de uma subclasse de forma genérica, como se fossem um objeto da superclasse. 
-	Assim, os objetos serão tratados de maneira semelhante e terão resultados/retornos específicos (de acordo com a subclasse)
-	Ex: Método para venda de carro
+	Consiste em tratar objetos de uma subclasse de forma genï¿½rica, como se fossem um objeto da superclasse. 
+	Assim, os objetos serï¿½o tratados de maneira semelhante e terï¿½o resultados/retornos especï¿½ficos (de acordo com a subclasse)
+	Ex: Mï¿½todo para venda de carro
 	
 		class Carro {}
 		class Civic : Carro {}
@@ -149,23 +155,41 @@
 		void VenderCivic (Civic civic) {}
 		void VenderCelta (Celta celta) {}
 		void VenderFerrari (Ferrari ferrari) {}
-	http://contembits.com.br/minicursos/poo/Polimorfismo.aspx 
+http://contembits.com.br/minicursos/poo/Polimorfismo.aspx
 
 
-# MÉTODOS E FUNÇÕES
-
+# ğŸ®Mï¿½TODOS E FUNï¿½ï¿½ES
+	
 ## Classes abstratas vs Classes concretas vs Interface
-	**Classe abstrata** - é uma classe que serve de modelo para as outras classes (se comporta como uma superclasse). 
-	Ela não pode ser instânciada e pode possuir métodos concretos e/ou abstratos - métodos abstratos são métodos que não possuem implementação (corpo).
-	Obs: Métodos só podem ser abstrados em classes abstratas e sempre devem ser implementados quando a classe for herdada
-	**Classe concreta** - é uma classe que possui todos os métodos implementados
-	**Interface** - define a estrutura padrão que uma classe deve implementar. TODOS os métodos definidos na interface devem ser implementados.
+	Classe abstrata - ï¿½ uma classe que serve de modelo para as outras classes (se comporta como uma superclasse). 
+	Ela nï¿½o pode ser instï¿½nciada e pode possuir mï¿½todos concretos e/ou abstratos - mï¿½todos abstratos sï¿½o mï¿½todos que nï¿½o possuem implementaï¿½ï¿½o (corpo).
+	Obs: Mï¿½todos sï¿½ podem ser abstrados em classes abstratas e sempre devem ser implementados quando a classe for herdada
+	Classe concreta - ï¿½ uma classe que possui todos os mï¿½todos implementados
+	Interface - define a estrutura padrï¿½o que uma classe deve implementar. TODOS os mï¿½todos definidos na interface devem ser implementados.
 
-## Lambdas (funções anônimas)
+## Lambdas (funï¿½ï¿½es anï¿½nimas)
+	Possibilita passar uma funÃ§Ã£o como se fosse um objeto em variÃ¡veis, estruturas, dentro de outras funÃ§Ãµes ou como parametros.
+	
+~~~C#
+sintaxe: 
+Func ou Action <tipo(s) parametro(s), tipo retorno> nomeFuncao = (nome parametro(s)) => expressÃ£o;
+Tipo nomeFuncao = (nome parametro(s)) => expressÃ£o;
+
+exemplos:
+Soma s = (x, y) => x + y; //obs: esse Soma Ã© um delegate
+
+var somatoriaSubtotal = listaItens.Sum(x => x.SubTotal);
+
+Func<int, int, int, string> formatarData = (dia, mes, ano) =>
+{
+	return String.Format($"{dia:D2}/{mes:D2}/{ano:D4}"); 
+};
+~~~
+
 	
 ## Action e Func
-	Possibilitam armazenar uma função dentro de um variável
-	Action - não possui retorno - é void
+	Possibilitam armazenar uma funï¿½ï¿½o dentro de um variï¿½vel
+	Action - nï¿½o possui retorno - ï¿½ void
 	ex: Action<string> declarar = (nome) => Console.WriteLine($"{nome}, te amo!!");
 
 	Func - possui retorno
@@ -173,30 +197,49 @@
             {
                 return String.Format($"{dia:D2}/{mes:D2}/{ano:D4}"); 
             };
-
-	obs: <tipo(s) parametro(s), tipo retorno> nomeFuncao = (nome parametro(s))
 }
 
 ## Delegate
-	Define a assinatura/estrutura de uma função
+	Define a assinatura/estrutura de uma funï¿½ï¿½o
+	sintaxe: delegate tipo_retorno Nome (parametros);
+
+## ExtensÃ£o de funcionalidades
+	Muitas vezes vocÃª precisa criar funcionalidade especÃ­ficas na sua aplicaÃ§Ã£o. Para fazer isso vocÃª deve
+	extender os tipos de dados atravÃ©s de mÃ©todos e do nome reservado "this". Ex:
+~~~C#
+public static class ExtensoesInteiro 
+{
+	public static string ToHexadecimal(this int num) //this + tipo parametro = extende o mÃ©todo para o tipo
+	{
+		return num.ToString("X");
+	}
+}
+
+utilizaÃ§Ã£o:
+int numero = 650;
+Console.WriteLine(numero.ToHexadecimal());
+~~~
+	Nesse caso, por exemplo, criamos uma nova funcionalidade para o tipo de dado inteiro. Agora, Ã© possÃ­vel converter 
+	um inteiro para hexadecimal em qualquer parte do sistema.
+
 
 	
-# EXCEÇÕES
+# âš ï¸EXCEï¿½ï¿½ES
 
 
 # API
 
 
-# TÓPICOS AVANÇADOS
+# ğŸ“ˆTï¿½PICOS AVANï¿½ADOS
 ## LINQ - linguagem de consulta integrada
 
 
-# CONFIGURAÇÕES
+# âš™ï¸CONFIGURAï¿½ï¿½ES
 
 ## Como adicionar um novo projeto Class Library (projeto tratado como uma biblioteca):
-	1. Clicar com o botão direito no Solution
+	1. Clicar com o botï¿½o direito no Solution
 	2. Add > New Project
 	3. Selecionar Class Library > Next
-	4. Solution Explorer > Projeto Principal > Dependencies > Clicar com o botão direito
-	5. Add Project Reference > Selecionar o projeto que você acabou de criar > ok
+	4. Solution Explorer > Projeto Principal > Dependencies > Clicar com o botï¿½o direito
+	5. Add Project Reference > Selecionar o projeto que vocï¿½ acabou de criar > ok
 	6. Adicionar using na classe que for usar o projeto
