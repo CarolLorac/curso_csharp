@@ -28,7 +28,8 @@ namespace curso_csharp
                 {"Struct - Classes e Métodos", Struct.Executar},
                 {"Struct vs Classe - Classes e Métodos", StructVsClasse.Executar},
                 {"Parâmetro com valor padrão - Classes e Métodos", ParametroPadrao.Executar},
-                {"Parâmetros por referência - Classes e Métodos\n", ParametrosPorReferencia.Executar},
+                {"Parâmetros por referência - Classes e Métodos", ParametrosPorReferencia.Executar},
+                {"Parâmetros por referência (exemplo 2) - Classes e Métodos\n", OutroExemplo.Executar},
 
                 //Coleções
                 {"Array - Coleções", UsandoArray.Executar},

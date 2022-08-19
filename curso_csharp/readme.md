@@ -1,17 +1,3 @@
-# PROPRIEDADES CSHARP
-  **override** - sobrescreve um método que foi definido na classe pai (superclasse)
-  para o override funcionar, tem que adicionar virtual no método da classe pai
-  ex super classe:
-  public virtual int Somar() {} 
-  
-  subclasse:
-  public override int Somar() {} 
-
-  **sealed** - proibe qualquer classe ser herdada e qualquer método ser sobrescrito
- 
-# LINQ - linguagem de consulta integrada
-	
-
 # CLASSES E MÉTODOS
 
 ## Construtores
@@ -27,6 +13,44 @@
 	const - constante de tempo de compilação - se o valor da constante NUNCA for alterado, então use const - é mais limitada, 
 	só pode ser usada em numeros, strings e nulosgit
 	https://www.macoratti.net/17/10/c_const1.htm#:~:text=Se%20o%20valor%20da%20constante,for%20alterada%20ent%C3%A3o%20use%20const
+
+## Enumerador
+	Pode ser usado como um tipo de dado e possui uma lista de valores pré-definidos pelo programador
+
+    enum GeneroFilmeEnum
+	{
+        [Description("Ação")]
+		Acao = 0,
+
+        [Description("Teror")]
+		Terror = 1,
+		
+		[Description("Comédia")]
+		Comedia = 2
+	}
+
+## Get e Set
+	São métodos utilizados para manipular (acessar e alterar) atributos 
+	**get** - lê atributo
+    **set** - altera atributo
+	ex: public string Nome {get; set;}
+
+## Parametros por valor e por referencia 
+	**valor** - 
+
+# PROPRIEDADES CSHARP
+  **override** - sobrescreve um método que foi definido na classe pai (superclasse)
+  para o override funcionar, tem que adicionar virtual no método da classe pai
+  ex super classe:
+  public virtual int Somar() {} 
+  
+  subclasse:
+  public override int Somar() {} 
+
+  **sealed** - proibe qualquer classe ser herdada e qualquer método ser sobrescrito
+ 
+	
+# COLEÇÕES
 
 ## Diferença entre array e list
 	A principal diferença entre essas duas coleções é que o array possui um tamanho fixo e a list é dinâmica (cresce de acordo 
@@ -72,34 +96,6 @@
         Console.WriteLine($"O filme {filme.Value} foi lançado em {filme.Key}"); 
     }	
 
-## Classes abstratas vs Classes concretas vs Interface
-	**Classe abstrata** - é uma classe que serve de modelo para as outras classes (se comporta como uma superclasse). 
-	Ela não pode ser instânciada e pode possuir métodos concretos e/ou abstratos - métodos abstratos são métodos que não possuem implementação (corpo).
-	Obs: Métodos só podem ser abstrados em classes abstratas e sempre devem ser implementados quando a classe for herdada
-	**Classe concreta** - é uma classe que possui todos os métodos implementados
-	**Interface** - define a estrutura padrão que uma classe deve implementar. TODOS os métodos definidos na interface devem ser implementados.
-
-## Lambdas (funções anônimas)
-	
-## Action e Func
-	Possibilitam armazenar uma função dentro de um variável
-	Action - não possui retorno - é void
-	ex: Action<string> declarar = (nome) => Console.WriteLine($"{nome}, te amo!!");
-
-	Func - possui retorno
-	ex:  Func <int, int, int, string> formatarData = (dia, mes, ano) =>
-            {
-                return String.Format($"{dia:D2}/{mes:D2}/{ano:D4}"); 
-            };
-
-	obs: <tipo(s) parametro(s), tipo retorno> nomeFuncao = (nome parametro(s))
-}
-
-## Delegate
-	Define a assinatura/estrutura de uma função
-	
-# MANIPULAÇÃO DE ARQUIVOS
-	File.Exists(caminho) - verifica se o arquivo existe
 
 # PILARES DA ORIENTAÇÃO A OBJETOS (OO)
 	A orientação a objetos é o principal paradigma - forma de organizar as ideias para modelar o mundo real dentro de um sistema - do c#
@@ -154,6 +150,45 @@
 		void VenderCelta (Celta celta) {}
 		void VenderFerrari (Ferrari ferrari) {}
 	http://contembits.com.br/minicursos/poo/Polimorfismo.aspx 
+
+
+# MÉTODOS E FUNÇÕES
+
+## Classes abstratas vs Classes concretas vs Interface
+	**Classe abstrata** - é uma classe que serve de modelo para as outras classes (se comporta como uma superclasse). 
+	Ela não pode ser instânciada e pode possuir métodos concretos e/ou abstratos - métodos abstratos são métodos que não possuem implementação (corpo).
+	Obs: Métodos só podem ser abstrados em classes abstratas e sempre devem ser implementados quando a classe for herdada
+	**Classe concreta** - é uma classe que possui todos os métodos implementados
+	**Interface** - define a estrutura padrão que uma classe deve implementar. TODOS os métodos definidos na interface devem ser implementados.
+
+## Lambdas (funções anônimas)
+	
+## Action e Func
+	Possibilitam armazenar uma função dentro de um variável
+	Action - não possui retorno - é void
+	ex: Action<string> declarar = (nome) => Console.WriteLine($"{nome}, te amo!!");
+
+	Func - possui retorno
+	ex:  Func <int, int, int, string> formatarData = (dia, mes, ano) =>
+            {
+                return String.Format($"{dia:D2}/{mes:D2}/{ano:D4}"); 
+            };
+
+	obs: <tipo(s) parametro(s), tipo retorno> nomeFuncao = (nome parametro(s))
+}
+
+## Delegate
+	Define a assinatura/estrutura de uma função
+
+	
+# EXCEÇÕES
+
+
+# API
+
+
+# TÓPICOS AVANÇADOS
+## LINQ - linguagem de consulta integrada
 
 
 # CONFIGURAÇÕES

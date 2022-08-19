@@ -50,7 +50,7 @@ namespace curso_csharp.ClassesEMetodos
             Moto moto = new Moto();
 
             moto.SetMarca("CBR1000");
-            moto.SetCilindrada(800); //se colcoar n° neg vai dar erro por causa do uint
+            moto.SetCilindrada(800); //se colocar n° neg vai dar erro por causa do uint
 
             Console.WriteLine("Marca: " + moto.GetMarca());
             Console.WriteLine("Cilindrada: " + moto.GetCilindrada());

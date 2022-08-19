@@ -44,4 +44,26 @@ namespace curso_csharp.ClassesEMetodos
             Console.WriteLine($"Sem referência (ref ou out): {d}"); 
         }
     }
+
+    class OutroExemplo
+    {
+        static void PassagemPorValor(int a)
+        {
+            a = 10;
+        }
+
+        static void PassagemPorReferencia(ref int a)
+        {
+            a = 10;
+        }
+
+        public static void Executar()
+        {
+            int n = 5;
+            PassagemPorValor(n);
+            Console.WriteLine($"Passagem por valor: {n}"); //vai exibir 5
+            PassagemPorReferencia(ref n);
+            Console.WriteLine($"Passagem por referencia: {n}"); //vai exibir 10
+        }
+    }
 }
